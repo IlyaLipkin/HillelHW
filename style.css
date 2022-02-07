@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+    font-weight: bold;
+}
+/* цвет сайта */
+.background {
+    background-color: rgb(217, 235, 250);
+}
+/* мое фото */
+.photo {
+    text-align: center;
+}
+.navigation {
+    color: rgb(232, 13, 240);
+}
+.main-conteiner {
+    height: 500px;
+}
+/* образование */
+.study {
+    font-family: 'Gideon Roman', cursive;
+    line-height: 45px;
+    background-color: rgba(32, 121, 84, 0.575);
+}
+.Web-razrobotki {
+    float: left;
+    display: block;
+    width: 35%;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+.table {
+    width: 255px;
+    margin-bottom: 20px ;
+}
+.form {
+    width: 255px;
+} 
+.sertificates {
+    float: right;
+    display: block;
+    width: 35%;
+    margin: -18px;
+    margin-right: 70px;
+    border: 2px solid black;
+}
+.leftarrow {
+    position: relative;
+    right: 385px;
+    top: 170px;
+}
+.rightarrow {
+    position: relative;
+    left: 385px;
+    top: 170px;
+}
+.main-conteiner1 {
+    height: 200px;
+}
+/* навыки */
+.techSkills {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(190, 190, 190);
+    float: left;
+    display: block;
+    width: 35%;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+.tech1 {
+    padding-left: 30px;
+}
+.tech2 {
+    padding-left: 60px;
+}
+.tech3 {
+    padding-left: 13px;
+}
+.textAbout {
+    float: right;
+    display: block;
+    width: 35%;
+    margin: -18px;
+    margin-right: 70px;
+    border: 2px solid black;
+}
+
+
+
+
+
+/* телефон */
+.phone {
+text-shadow: 15px 15px 30px rgb(0, 0, 0), 0 0 1em red;
+color: rgb(8, 83, 126); 
+font-size: 2em; 
+text-decoration: underline;
+}
+/* телеграм */
+.telega {
+    font-family: 'Playfair Display', serif;
+}
