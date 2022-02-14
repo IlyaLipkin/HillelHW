@@ -29,7 +29,6 @@
     float: left;
     display: block;
     width: 35%;
-    border: 2px solid black;
     margin-left: 70px;
 }
 .table {
@@ -45,17 +44,16 @@
     width: 35%;
     margin: -18px;
     margin-right: 70px;
-    border: 2px solid black;
 }
 .leftarrow {
     position: relative;
-    right: 385px;
-    top: 170px;
+    right: 535px;
+    top: 220px;
 }
 .rightarrow {
     position: relative;
-    left: 385px;
-    top: 170px;
+    left: 535px;
+    top: 220px;
 }
 .main-conteiner1 {
     height: 200px;
@@ -70,7 +68,6 @@
     float: left;
     display: block;
     width: 35%;
-    border: 2px solid black;
     margin-left: 70px;
 }
 .tech1 {
@@ -88,13 +85,7 @@
     width: 35%;
     margin: -18px;
     margin-right: 70px;
-    border: 2px solid black;
 }
-
-
-
-
-
 /* телефон */
 .phone {
 text-shadow: 15px 15px 30px rgb(0, 0, 0), 0 0 1em red;
