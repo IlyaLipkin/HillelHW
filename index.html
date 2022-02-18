@@ -3,105 +3,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Портфолио Липкин</title>
 </head>
 
-<body class="background">
+<body class="body">
     <header>
-        <div class="photo">
+        <div class="profile">
             <h1>Мое портфолио</h1>
-            <img width="400px" height="300px" src="./photo.jpg" alt="Моя фотография">
-            <p>«Мой общий стаж работы — 000 лет. Личные качества: целеустремленность, 
-            амбициозность, коммуникабельность, стрессоустойчивость. Заинтересован в развитии 
-            в сфере IT. Высокая самомотивация.».</p>
+            <img width="400px" height="300px" src="photo.jpg" alt="Моя фотография">
+            <p>Мой общий стаж работы - 0 лет. Личные качества: целеустремленность, амбициозность, коммуникабельность, стрессоустойчивость. Заинтересован в развитии в сфере IT по направлению Front end. Высокая самомотивация.</p>
         </div>
         <ul class="navigation">
-            <li><a href="#Obrazovanie">Образование</a></li>
-            <li><a href="#Web-razrobotki">Мои веб-разработки</a></li>
-            <li><a href="#Contacts">Контактная информация</a></li>
+            <li><a href="#obrazovanie">Образование</a></li>
+            <li><a href="#web-razrobotki">Мои веб-разработки</a></li>
+            <li><a href="#contacts">Контактная информация</a></li>
             <li><a href="#sertificates">Сертификаты</a></li>
+            <li><a href="#techskills">Tech Skills</a></li>
+            <li><a href="#softskills">Soft Skills</a></li>
         </ul>
     </header>
     <!-- Образование -->
-    <section>
-        <h2 id="Obrazovanie">Образование</h2>
-        <ol class="study">
+    <section class="education">
+        <h2 id="obrazovanie">Образование</h2>
+        <ol>
             <li>Полное общее среднее образование</li>
             <li>Полное высшее образование</li>
         </ol>
-        <br>
     </section>
     <!-- Веб-разработки -->
-    <section class="main-conteiner">
-        <div class="Web-razrobotki">
-            <h2 id="Web-razrobotki">Мои веб-разработки</h2>
-                <div class="table">
-                    <span><a href="./table.html" target="_blank">Таблица</a></span>
-                    <span><a href="./table.html" target="_blank"><img src="./tablica.jpg" width="255px" height="155px" 
-                    alt="Таблица"></a></span>
-                </div>
-                
-                <div class="form">
-                    <span class="textForm"><a href="./form.html" target="_blank">Форма</a></span>
-                    <span><a href="./form.html" target="_blank"><img src="./Form.jpg" width="255px" height="155px" 
-                    alt="Сайт форма"></a></span>
-                </div>
+    <section>
+        <div class="web-razrobotki">
+            <h2 id="web-razrobotki">Мои веб-разработки</h2> 
+            <div class="table">
+                <span><a href="../Hillel/table.html" target="_blank">Таблица</a></span>
+                <span><a href="../Hillel/table.html" target="_blank"><img width="400px" height="300px" src="tablica.jpg" alt="Таблица"></a></span>
+            </div>
+            <div class="form">
+                <span><a href="../Hillel/form.html" target="_blank">Форма</a></span>  
+                <span><a href="../Hillel/form.html" target="_blank"><img width="400px" height="300px" src="Form.jpg" alt="Сайт форма"></a></span>
+            </div>
         </div>
-        <br>
+        <!-- сертификаты -->
         <div class="sertificates">
-            <h2 id="sertificates">Мои сертификаты</h2>
-                <div> 
-                    <div>
-                        <span>Сертификат 1</span>
-                        <span>Сертификат 2</span>
-                    </div>
-                    <div>
-                        <span>Сертификат 3</span>
-                        <span>Сертификат 4</span>
-                    </div>
-                    <div>
-                        <span>Сертификат 5</span>
-                        <span>Сертификат 6</span>
-                    </div>
-                </div>
-        </div>
-        <img width="55px" height="55px" src="./left-arrow.jpg" class="leftarrow" alt="Стрелка влево">
-        <img width="55px" height="55px" src="./right-arrow.jpg" class="rightarrow" alt="Таблица вправо">
-    </section>
-    <br>
-    <section class="main-conteiner1">
-        <div class="techSkills">
-            <h2>TechSkills</h2> 
-            <div class="techSkillsText"> 
+            <h2 id="sertificates">Сертификаты</h2>
+            <div>
                 <div>
-                    <span>HTML5</span>
-                    <span class="tech1">CSS3</span>
+                    <span>Сертификат1</span>
+                    <span>Сертификат2</span>
                 </div>
                 <div>
-                    <span>GIT</span>
-                    <span class="tech2">GitHub</span>
+                    <span>Сертификат3</span>
+                    <span>Сертификат4</span>
                 </div>
                 <div>
-                    <span>JavaScript</span>
-                    <span class="tech3">React/Node.js</span>
+                    <span>Сертификат5</span>
+                    <span>Сертификат6</span>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="textAbout">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Modi ducimus soluta facere totam, harum voluptatibus illo cum
-            non ratione recusandae commodi, perferendis molestiae autem officia
-            pariatur ullam accusantium saepe deleniti.</p>
-        </div>
     </section>
-    <br>
+
+    <section>
+    <!-- tech skills -->
+    <div class="techskills">
+        <h2 id="techskills">Tech Skills</h2> 
+        <div>
+            <div>
+                <span class="tech1">HTML5</span>
+                <span class="tech2">CSS</span>
+            </div>
+            <div>
+                <span class="tech3">GIT</span>
+                <span class="tech4">GitHub</span>
+            </div>
+            <div>
+                <span class="tech5">JavaScript</span>
+                <span class="tech6">React/Node.js</span>
+            </div>
+        </div>
+    </div>
+    <!-- soft skills -->
+    <div class="softskills">
+        <h2 id="softskills">Soft Skills</h2>
+        <div>
+            <div>
+                <span class="soft1">Ответственность</span>
+                <span class="soft2">Исполнительность</span>
+            </div>
+            <div>
+                <span class="soft3">Коммуникативность</span>
+                <span class="soft4">Стрессоустойчивость</span>
+            </div>
+            <div>
+                <span class="soft5">Желание учиться</span>
+                <span class="soft6">Тайм менеджмент</span>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
     <!-- Связь -->
-    <footer class="contacts">
-        <h3 id="Contacts">Контактная информация</h3>
-        <p class="phone">tel: 0971888389</p>
-        <p class="telega">Telegram: @TimeOfDeath8</p>
+<section class="contacts">
+    <footer>
+        <h3 id="contacts">Контактная информация</h3>
+        <p>tel: 0971888389</p>
+        <p>Telegram: @TimeOfDeath8</p>
+        <img width="40px" height="30px" src="./viber.webp" alt="viber">
+        <img width="40px" height="30px" src="./telegraam.svg" alt="viber">
+        <img width="40px" height="30px" src="./insta.png" alt="viber">
+        <img width="40px" height="30px" src="./whatsup.png" alt="viber">
+        
     </footer>
+</section>   
 </body>
 </html>
