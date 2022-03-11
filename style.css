@@ -1,0 +1,369 @@
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.yellow_line {
+    display: block;
+    background-color: rgba(255, 202, 5, 1);
+    width: 106px;
+    height: 1790px;
+    margin: -7px 0px 0 -7px;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+}
+.name_surname {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 230px;
+}
+.name {
+    margin-top: 177px;
+    margin-left: 73px;
+    font-size: 82px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 9px;
+    line-height: 83px;
+}
+.profession_box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 515px;
+}
+.minus {
+    color: rgba(255, 202, 5, 1);
+    font-size: 100px;
+    padding-top: 24px;
+    padding-bottom: -10px;
+    height: 107px;
+}
+.profession {
+    font-size: 27px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 9px;
+    padding-top: -10px;
+}
+.my_info {
+    margin-top: 148px;
+    padding-bottom: 165px;
+    background-color: rgba(41, 41, 52, 1);
+    color: #ffffff;
+    width: 440px;
+    height: 1062px;
+}
+.line {
+    color: rgba(255, 202, 5, 1);
+    letter-spacing: 0;
+}
+.item_name {
+    margin-top: 76px;
+    margin-left: 60px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 37px;
+    letter-spacing: 5.8px;
+}
+.text_lorem {
+    margin-left: 58px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 29px;
+    letter-spacing: 2px;
+    margin-top: -3px;
+}
+.item_name1 {
+    margin-top: 116px;
+    margin-left: 58px;
+    margin-bottom: 29px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 37px;
+    letter-spacing: 5.8px;
+}
+.link_area1 {
+    margin-left: 59px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.link_text1 {
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+}
+.link_area2 {
+    margin-left: 59px;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.link_text2 {
+    margin-left: 57px;
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+.link_area3 {
+    margin-left: 60px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.link_text3 {
+    margin-left: 59px;
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+.item_name2 {
+    margin-top: 106px;
+    margin-left: 60px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 37px;
+    letter-spacing: 5.8px;
+}
+.hobby1 {
+    padding-left: 60px;
+}
+.hobby2 {
+    padding-left: 35px;
+    padding-top: 3px;
+}
+.hobby3 {
+    padding-left: 35px;
+}
+.hobby4 {
+    padding-left: 33px;
+}
+.content_box {
+    margin-left: 439px;
+    margin-top: -1227px;
+    width: 730px;
+    height: 1227px;
+    color: #ffffff;
+    background-color: rgba(34, 34, 45, 1);
+}
+.item_name3 {
+    margin-top: 75px;
+    margin-left: 75px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 38px;
+    letter-spacing: 5.3px;
+}
+.link_area4 {
+    margin-left: 74px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.6px;
+    white-space: pre;
+    margin-bottom: 21px;
+}
+.link_area5 {
+    margin-left: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.67px;
+    white-space: pre;
+    margin-bottom: 19px;
+}
+.link_text4 {
+    margin-left: 76px;
+    margin-top: -5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.7px;
+    white-space: pre;
+}
+.item_name4 {
+    margin-top: 130px;
+    margin-left: 75px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 38px;
+    letter-spacing: 5.5px;
+}
+.link_area6 {
+    margin-left: 74px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: -4px;
+}
+#rectangle {
+    margin-left: 75px;
+    margin-top: 1px;
+    width: 110px;
+    height: 27px;
+    background: rgba(255, 202, 5, 1);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    float: left;
+}
+.link_area7 {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 17px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.link_text5 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
+    margin-top: 17px;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+    font-size: 17px;
+}
+.link_area8 {
+    margin-left: 73px;
+    margin-top: 52px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 17px;
+}
+#rectangle1 {
+    margin-left: 76px;
+    margin-top: 2px;
+    width: 110px;
+    height: 27px;
+    background: rgba(255, 202, 5, 1);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    float: left;
+}
+.link_area9 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    padding-left: 17px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.link_text6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
+    margin-top: 14px;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+    font-size: 17px;
+}
+.item_name5 {
+    margin-top: 133px;
+    margin-left: 78px;
+    font-family: 'Bebas Neue', bold;
+    font-size: 38px;
+    letter-spacing: 5.5px;
+}
+.circle_line{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 122px;
+}
+.circle1 {
+    margin-top: 18px;
+    margin-left: 90px;
+    padding-top: 28px;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 45, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.8px;
+    z-index: 1;
+}
+.img1 {
+    width: 115px;
+    height: 115px;
+    margin-top: 4px;
+    margin-left: 76px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.circle2 {
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-top: 31px;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 45, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.8px;
+    z-index: 1;
+}
+.img2 {
+    width: 115px;
+    height: 115px;
+    margin-top: 4px;
+    margin-left: 218px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.circle3 {
+    margin-top: 16px;
+    margin-left: 50px;
+    padding-top: 30px;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 45, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.8px;
+    z-index: 1;
+}
+.img3 {
+    width: 115px;
+    height: 115px;
+    margin-top: 4px;
+    margin-left: 357px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.circle4 {
+    margin-top: 16px;
+    margin-left: 48px;
+    padding-top: 30px;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 45, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.8px;
+    z-index: 1;
+}
+.img4 {
+    width: 115px;
+    height: 115px;
+    margin-top: 4px;
+    margin-left: 496px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
